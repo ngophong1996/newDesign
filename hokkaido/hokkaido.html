@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hokkaido</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/f99152938e.js" crossorigin="anonymous"></script>
+  <!-----fonts----->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+  <!-----bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <!------Ajax------>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"
+            charset="utf-8"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Hokkaido</a>
+      <div class="menuToggle"></div>
+    </header>
+    <ul class="navigation">
+      <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      <li><a href="#post" onclick="toggleMenu()">Travel</a></li>
+      <li><a href="#testText" onclick="toggleMenu()">Nổi bật</a></li>
+    </ul>
+
+    <!-- Banner -->
+  <section class="banner" id="home">
+      <img src="./images/hokkaido1.jpg" class="cover" />
+      <div class="contentBx">
+        <h2>Hokkaido</h2>
+        <h4>A beautiful place in Japan</h4>
+        <a href="#about" class="btn">About Hokkaido</a>
+      </div>
+  </section>
+
+    <!-- About Hokkaido -->
+  <section class="about" id="about">
+    <div class="title">
+      <h2>About Hokkaido</h2>
+    </div>
+    <div class="contentBx">
+      <div class="content">
+        <p>
+            Hokkaido là hòn đảo chính nằm ở cực bắc Nhật Bản, cách đảo Honshu
+            bởi eo biển Tsugaru, được nối liền với đảo Honshu bằng đường hầm
+            Seikan. Trong đó Sapporo là thành phố lớn nhất đồng thời cũng là
+            trung tâm hành chính của Hokkaido. Thành phố Sapporo là cửa ngõ vào
+            Hokkaido khi đi từ Tokyo và Osaka, nổi bật với đường phố được sắp
+            xếp gọn gàng như hình bàn cờ. Hokkaido được thiên nhiên ưu ái vô
+            cùng với vẻ đẹp diệu kỳ của cảnh sắc núi non, cao nguyên rộng lớn,
+            sông hồ, biển cả và bầu trời trong vắt. Chính vì vậy nơi đây luôn là
+            điểm đến làm mê đắm biết bao du khách với cảnh sắc xinh đẹp trong
+            suốt 4 mùa, cùng những món ăn tươi ngon đặc sắc. Trong đôi mắt của
+            người Nhật thì Hokkaido là một nơi nhìn thấy đường chân trời rõ nét
+            nhất, một cách tự nhiên và đẹp đẽ nhất mà lạnh buốt, cũng là một
+            trong những nơi tìm được cảm giác trở về, và cảm giác thân thiết
+            nhất với cuộc sống và cội nguồn. Một mặt nước bình lặng, bãi cát
+            nông màu xanh khi nước triều lên, từng bụi hoa nhỏ xinh xắn nở rộ,
+            đủ mọi màu sắc, màu hồng tươi tắn, màu tím cao sang, màu vàng thắm
+            thiết mà còn có màu xanh thanh tao, không có sự sắp xếp nhân tạo,
+            không có bàn tay con người đụng vào song sự liên kết thành một màu
+            sắc hài hòa đẹp mắt, khiến người ta không khỏi suy nghĩ miên man.
+            Mặt nước yên tĩnh, bãi cát nông màu xanh khi nước triều dâng,
+            Hokkaido là nơi hiền lành chất phác nhất và cũng là nơi say đắm lòng
+            người. Hình dáng Hokkaido giống như một con cua to lớn thu hết chận
+            lại nằm co ro ở phương bắc xa xôi vì giá lạnh. Hokkaido là một trong
+            bốn hòn đảo lớn ở Nhật Bản, ngày nay nó là biểu tượng cho sự thu nhỏ
+            của thiên nhiên, đất đai rộng rãi và là vùng đồng bằng rộng lớn mênh
+            mông, đồng cỏ tươi tốt, không khí trong lành và nguồn nước thì sạch
+            đến lạ kỳ.
+        </p>
+      </div>
+      <div class="content">
+        <div class="imgBx">
+          <img src="./images/hokkaido.jpgpg.jpg" class="cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Tourist -->
+  <section id="geography">
+    <div class="Tourist">
+      <div class="container">
+        <div class="title-top">
+          <div
+            class="title-house wow fadeIn wHighlight"
+            style="text-align: center"
+            data-wow-delay=".25s"
+          >
+            <h2>Hokkaido shokai</h2>
+          </div>
+        </div>
+
+        <div class="tab-top">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="top-cate">
+                <div class="row">
+                  <div
+                    class="col-md-12 wow fadeInLeft wHighlight"
+                    data-wow-delay=".25s"
+                  >
+                    <div class="cate-top-left">
+                      <div class="title">
+                        <div>
+                          Thời tiết ở Hokkaido chia ra:。
+                          <div><b>- 1月～3月は乾季 春の気候です。</b></div>
+                          <div>
+                            最低気温は10～15℃、最高気温も25℃ぐらいと少し暑いです。雨はあまり降りません。
+                          </div>
+                          <div><b>- 4月～6月は乾季　夏の気候です。</b></div>
+                          <div>
+                            4月～6月頃は一番暑いです。
+                            25℃くらいから6月頃には39℃近くになります。気温の上昇するようになると、とても暑いと湿ます。
+                          </div>
+                          <div><b>- 7月～9月は雨季　秋の気候です。</b>　</div>
+                          <div>
+                            7月～9月は凄く雨が降ってきました。
+                            気温25℃以上になり雨が多くなります。とても蒸し暑い日が続くので、病気などに十分注意が必要です。
+                          </div>
+                          <div><b>- 10月～12月は乾季　冬の気候です。</b></div>
+                          <div>
+                            雨が少なくなり気温が下がります。10月は最高29℃くらいですが、12月には13℃程度で最低気温は8℃を下回るようになります。
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 bot-cate">
+                <div class="content-tab-right">
+                  <div
+                    id="tab-1"
+                    class="tab-content current wow fadeIn wHighlight"
+                    data-wow-delay=".45s"
+                  >
+                    <div class="title-tab-right"><h2>詳細情報</h2></div>
+                    <div class="desc-tab">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="desc-tab-left">
+                            <div class="dientich">
+                              <div class="row">
+                                <div class="col-md-3">
+                                  <span><strong>住所</strong></span>
+                                </div>
+                                <div class="col-md-9">
+                                  <span>Hokkaido</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="dientich">
+                              <div class="row">
+                                <div class="col-md-3">
+                                  <span><strong>面積</strong></span>
+                                </div>
+                                <div class="col-md-9">
+                                  <span>3329 km²</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="dientich">
+                              <div class="row">
+                                <div class="col-md-3">
+                                  <span><strong>人口</strong></span>
+                                </div>
+                                <div class="col-md-9">
+                                  <span>7654百万人</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="dientich">
+                              <div class="row">
+                                <div class="col-md-3">
+                                  <span><strong>アクセス</strong></span>
+                                </div>
+                                <div class="col-md-9">
+                                  <div>
+                                    成田、羽田、関西、中部、福岡から直行便がある。成田、羽田から5〜6時間、関西から4時間30分〜5時間、中部から約5時間30分、福岡から約4時間30分。
+                                    成田、羽田からは毎日2便、関西、中部からは毎日1便、福岡からは週2〜4便。
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="maps">
+                            <iframe
+                              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2060335.8361374282!2d140.1930675848809!3d43.65124879088831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9f59209f6c888b%3A0x1c3cc3564fce038f!2z5YyX5rW36YGT!5e0!3m2!1sja!2sjp!4v1663466487961!5m2!1sja!2sjp"
+                              width="600"
+                              height="450"
+                              style="border: 0"
+                              allowfullscreen
+                            ></iframe>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Travel -->
+  <section class="post" id="post">
+    <div class="title">
+      <h2>TRAVEL</h2>
+      <p>
+          Với nhiều cảnh quan tự nhiên, những ngọn núi, hồ và công viên,
+          Hokkaido hứa hẹn các chuyến tham quan thú vị quanh năm dành cho những
+          người yêu thiên nhiên. Trong những mùa ấm hơn, du khách sẽ được tận
+          hưởng khung cảnh ấn tượng từ các con đường đi bộ đường dài và hồ nước,
+          thời điểm này cũng chính là mùa nở rộ của hoa anh đào ở công viên. Vào
+          mùa đông, hòn đảo thu hút du khách với nhiều suối nước nóng thư giãn
+          và nhiều địa điểm thể thao mùa đông nổi tiếng. Đối những những du
+          khách muốn khám phá cảnh quan đô thị, các thành phố của Hookkaido như
+          Sapporo, Otaru và Hakodate có nhiều bảo tàng, nhà hàng và nhiều hơn
+          thế.
+      </p>
+    </div>
+    <div class="contentBx">
+      <div class="postColumn">
+        <div class="postBox">
+          <div class="imgBx">
+            <img src="./images/hokkaido-top-10-217476.jpg" class="cover" />
+          </div>
+          <div class="textBx">
+            <h3>
+                Hồ xanh, hoặc Aoiike nằm ở một thị trấn nhỏ ở Biei. Du khách có
+                thể đến Hồ Xanh vào bất cứ thời điểm nào trong năm, bất kể là
+                hình ảnh những cái cây ngập lớp tuyết vào mùa đông hay khung
+                cảnh bầu trời mùa hè ấn tượng được phản chiếu trên mặt hồ nước
+                chắc chắn sẽ để lại nhiều dấu ấn khó quên.
+            </h3>
+          </div>
+        </div>
+        </div>
+        <div class="postColumn">
+          <div class="postBox">
+            <div class="imgBx">
+              <img src="./images/hokkaido-top-10-217512.jpg" class="cover" />
+            </div>
+            <div class="textBx">
+              <h3>
+                Thành phố Hakodate nằm ở mũi phía nam của hòn đảo, được bao bọc
+                bởi Biển Nhật Bản và biển Thái Bình Dương. Với lịch sử là một
+                thành phố cảng, Hakodate nổi tiếng với trữ lượng đồ biển tươi
+                mới dồi dào, là nguồn cung chất lượng cho món cơm cuộn sushi
+                tinh tế. Những người sành ăn có thể tự thưởng cho bản thân mình
+                bằng cách dạo bộ qua khu chợ buổi sáng của thành phố nơi họ có
+                thể quan sát thành quả của một ngày lao động.
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="postColumn">
+          <div class="postBox">
+            <div class="imgBx">
+              <img src="./images/hokkaido3.jpg" class="cover" />
+            </div>
+            <div class="textBx">
+              <h3>
+                Nằm ở phía đông của hòn đảo, khu vực này là một trong những vườn
+                quốc gia đầu tiên của Nhật Bản. Vẻ đẹp tự nhiên phong phú khiến
+                nó trở thành nơi lý tưởng để tham quan và đi bộ đường dài. Vườn
+                quốc gia có ba hồ: hồ Akan, hồ Kussharo và hồ Mashu. Chuyến đi
+                đến vườn quốc gia Akan sẽ không đầy đủ nếu bạn không ghé thăm hồ
+                Mashu.
+              </h3>
+            </div>
+          </div>
+        </div>
+        
+    </section>
+
+    <!-- NỔI BẬT -->
+  <section>
+    <div class="container" id="testText" >
+      <div class="title" >
+        <h2>Nổi Bật</h2>
+      </div>
+      <ul class="list-unstyled">
+        <li class="media">
+          <img src="images/hokkaido4.jpg" class="mr-3 col-md-3 " alt="..." />
+          <div class="media-body">
+            <h5 class="mt-0 mb-1 col-md-9">
+              Đường đua Obihiro - Vòng quanh thành phố Obihiro
+            </h5>
+            <p>
+              Văn hóa ngựa là văn hóa lớn ở Hokkaido do phạm vi rộng lớn của các
+              vùng đất thảo nguyên. Các giống ngựa ồ ạt đã được mang đến từ châu
+              Âu vào những năm 1900, và những con ngựa đã được thay thế cùng các
+              thiết bị hiện đại, văn hóa ngựa vẫn còn lớn mạnh. Để bắt đầu, hãy
+              dành một buổi chiều với cuộc đua xe trượt tuyết Banei (loại hình
+              duy nhất trên thế giới) tại Trường đua Obihiro, nơi bạn sẽ tìm
+              thấy những con ngựa nặng hơn một tấn kéo những chiếc xe trượt
+              tuyết bằng sắt nặng một tấn qua cát và tuyết. Bảo tàng Ngựa
+              Obihiro gần đó cho bạn trải nghiệm khám phá lịch sử địa phương và
+              giải trí, mặc dù hầu hết các dịch vụ chỉ có tiếng Nhật. Cuối cùng,
+              bạn sẽ muốn đặt chỗ trên quầy bar xe ngựa gọi là Basha Bar. Chuyến
+              tham quan quán bar và ăn uống độc đáo này được mở ra bởi
+              Musashikoma, người đã từng là một tay đua tích cực trên Đường đua
+              Obihiro. Trải nghiệm ăn uống trên Basha Bar là một cách đáng nhớ
+              để khám phá trung tâm thành phố Obihiro.
+            </p>
+          </div>
+        </li>
+        <li class="media my-4">
+          <img src="images/hokkaido5.jpg" class="mr-3 col-md-3" alt="..." />
+          <div class="media-body">
+            <h5 class="mt-0 mb-1 col-md-9">
+              Lâu đài rượu vang Ikeda - Thưởng thức các loại rượu vang của
+              phương bắc
+            </h5>
+            <p>
+              Trong khi khu vực Tokachi được biết đến với những vùng đất bằng
+              phẳng rất thích hợp cho việc trồng trọt và chăn nuôi gia súc, thì
+              cũng có những ngọn đồi trong khu vực nơi không khí đạt đến nhiệt
+              độ lý tưởng cho việc trồng nho và lên men rượu vang. Rượu vang
+              Kiyomi được sản xuất ở đây được biết đến là có màu sắc nhẹ nhàng,
+              độ chua sảng khoái và một loạt các hương vị phong phú. Nơi sản
+              sinh ra rượu vang Tokachi, Lâu đài Rượu vang Ikeda , được xây dựng
+              trên một ngọn đồi có tầm nhìn tuyệt vời ra dãy núi Hidaka. Ban đầu
+              được xây dựng như một hầm rượu, người dân địa phương đã mang đến
+              hơn 200 thùng gỗ sồi Pháp để tạo ra rượu vang sủi bọt của Nhật Bản
+              giống như cách tạo ra rượu sâm panh ở Pháp. Trong tòa nhà lâu đài,
+              hãy tham gia một chuyến tham quan rượu vang và nếm thử các loại
+              rượu vang và rượu mạnh khi bạn ngắm nhìn quang cảnh xung quanh. Du
+              khách cũng có thể mua nhiều loại đặc sản địa phương tại khu vực
+              cửa hàng quà tặng.
+            </p>
+          </div>
+        </li>
+        <li class="media">
+          <img src="images/hokkaido6.jpg" class="mr-3 col-md-3" alt="..." />
+          <div class="media-body">
+            <h5 class="mt-0 mb-1 col-md-9">
+              Vườn quốc gia Daisetsuzan - Khám phá công viên quốc gia lớn nhất
+              Hokkaido
+            </h5>
+            <p>
+              Đối với những người có ô tô và muốn hòa mình vào thiên nhiên, Vườn
+              quốc gia Daisetsuzan nằm ngay phía bắc của Obihiro. Daisetsuzan
+              bảo tồn một vùng núi hoang vu và là thiên đường cho những người
+              thích khám phá và yêu thích hoạt động ngoài trời. Có lẽ nổi tiếng
+              nhất với một loạt các suối nước nóng tự nhiên, đến từ phía Nam,
+              khu vực tham quan chính sẽ là khu vực xung quanh Hồ Shikaribetsu,
+              nơi bạn có thể tìm thấy khách sạn Shikaribetsu Kohan Onsen Hotel
+              Fusui. Quang cảnh xung quanh hồ tương đối hoang sơ và có sẵn một
+              loạt các hoạt động trên hồ, từ SUP đến chèo thuyền kayak và ca nô.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+<!------------footer------>
+   <footer>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="section-title">Giới thiệu</h3>
+            <p>CultureTravel là một Website về thông tin vắn hoá của nhiều nước trên thế giới được vận hành và phát triển từ năm 2022. Các bài viết được tổng hợp đa phần từ nội dung tham khảo trên Google.</p>
+
+            <h3 class="section-title">Cơ Hội hợp tác với CultureTravel</h3>
+            <p>Cùng với mục tiêu phát triển của CultureTravel là muốn đưa thông tin nhiều hơn về văn hoá đến với độc giả. Song song đó là lượng nội dung bổ ích và chính xác về văn hoá phải được cập nhật thường xuyên.</p>
+
+            <p>Hiện tại,CultureTravel muốn hợp tác với các bên phát triển dịch vụ du lịch và cá nhân đam mê du lịch.</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="section-title">Liên lạc</h3>
+              <ul class="contact-info">
+                <li><i class="fa-regular fa-map"></i>98 West 21th Street, Suite 721 New York NY 10016</li>
+                <li><i class="fa-solid fa-phone-flip"></i>+ 1235 2355 98</li>
+                <li><i class="fa-regular fa-envelope"></i><a href="#">info@yoursite.com</a></li>
+                <li><i class="fa-solid fa-globe"></i><a href="#">www.yoursite.com</a></li>
+              </ul>
+          </div>
+            <div class="col-md-4">
+              <h3 class="section-title">Phản hồi</h3>
+              <form class="contact-form">
+                <div class="form-group">
+                  <label for="name" class="sr-only">Tên</label>
+                  <input type="name" class="form-control" id="name" placeholder="Tên">
+                </div>
+                <div class="form-group">
+                  <label for="email" class="sr-only">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="message" class="sr-only">Nội dung tin nhắn</label>
+                  <textarea class="form-control" id="message" rows="7" placeholder="Nội dung tin nhắn"></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Gửi">
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="row copy-right justify-content-md-center">
+            <div class="col-md-6 col-md-offset-3 text-center">
+              <p>THEO DÕI CHÚNG TÔI</p>
+              <p class="fh5co-social-icons">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </p>
+              <p>&copy; 2022 <a href="#">Culture Travel</a> at Home. All Rights Reserved. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <script>
+      const menuToggle = document.querySelector(".menuToggle");
+      const navigation = document.querySelector(".navigation");
+
+      menuToggle.onclick = function () {
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      };
+
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+      function toggleMenu() {
+        menuToggle.classList.remove("active");
+        navigation.classList.remove("active");
+      }
+    </script>
+  </body>
+</html>
