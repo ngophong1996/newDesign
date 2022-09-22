@@ -45,20 +45,20 @@ span{
   box-sizing: border-box;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  background-image: url('https://img-global.cpcdn.com/recipes/630a5b24ef3fdf90/1200x630cq70/photo.jpg');
+  background-image: url('https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1611205269/blog/ahoihfpcnx6qez4upins.webp');
   animation: border-transform 6s linear infinite alternate forwards;
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
     animation-play-state: paused;
 }
 .checkbox.scnd + label{
-  background-image: url('https://top10tphcm.com/wp-content/uploads/2021/01/Quan-bun-cha-ha-noi-o-TPHCM.jpg');
+  background-image: url('http://cdn.tgdd.vn/Files/2020/03/23/1243844/lam-nem-chua-ran-chien-xu-chuan-vi-ha-noi-tai-nha-202201101658126508.jpeg');
 }
 .checkbox.thrd + label{
-  background-image: url('https://kenhhomestay.com/wp-content/uploads/2019/07/top-10-dia-chi-ban-banh-trang-tron-ngon-nhat-o-sai-gon-5.jpg');
+  background-image: url('https://inhat.vn/ha-noi/wp-content/uploads/2019/08/banh-com-min-e1623983438173.jpg');
 }
 .checkbox.foth + label{
-  background-image: url('https://kenhhomestay.com/wp-content/uploads/2019/01/Hu-tieu-Sai-Gon-12.jpg');
+  background-image: url('https://media.mia.vn/uploads/blog-du-lich/mach-ban-top-10-quan-tao-pho-ha-noi-thom-ngon-noi-tieng-01-1639504727.jpg');
 }
 
 .checkbox:checked + label{
@@ -107,7 +107,7 @@ ul .Foodpic {
   border: 5px solid #bdc3c7;
   background-size: cover;
   background-position: center;
-  background-image: url('https://img-global.cpcdn.com/recipes/630a5b24ef3fdf90/1200x630cq70/photo.jpg');
+  background-image: url('https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1611205269/blog/ahoihfpcnx6qez4upins.webp');
   border-radius: 50%;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -127,13 +127,13 @@ ul .Foodpic {
   mix-blend-mode: difference;
 }
 .Foodpic .foodinfor:nth-child(2) {
-  background-image: url('https://top10tphcm.com/wp-content/uploads/2021/01/Quan-bun-cha-ha-noi-o-TPHCM.jpg');
+  background-image: url('http://cdn.tgdd.vn/Files/2020/03/23/1243844/lam-nem-chua-ran-chien-xu-chuan-vi-ha-noi-tai-nha-202201101658126508.jpeg');
 }
 .Foodpic .foodinfor:nth-child(3) {
-  background-image: url('https://kenhhomestay.com/wp-content/uploads/2019/07/top-10-dia-chi-ban-banh-trang-tron-ngon-nhat-o-sai-gon-5.jpg');
+  background-image: url('https://inhat.vn/ha-noi/wp-content/uploads/2019/08/banh-com-min-e1623983438173.jpg');
 }
 .Foodpic .foodinfor:nth-child(4) {
-  background-image: url('https://kenhhomestay.com/wp-content/uploads/2019/01/Hu-tieu-Sai-Gon-12.jpg');
+  background-image: url('https://media.mia.vn/uploads/blog-du-lich/mach-ban-top-10-quan-tao-pho-ha-noi-thom-ngon-noi-tieng-01-1639504727.jpg');
 }
 
 
