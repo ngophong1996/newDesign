@@ -681,3 +681,13 @@ ul .Foodpic {
     height: 200px;
   }
 }
+@media (min-width: 768px) {
+ body{
+  margin: 0 auto;
+  padding: 0;
+ }
+ img{
+  display: block;
+  width: auto;
+ }
+}

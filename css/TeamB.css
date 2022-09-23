@@ -686,7 +686,6 @@ p{
   justify-content: center;
 }
 
-
 [type="checkbox4"]:checked,
 [type="checkbox4"]:not(:checked){
   position: absolute;
