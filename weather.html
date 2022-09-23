@@ -21,19 +21,16 @@
     <!-- change here -->
     <link href="css/cover.css" rel="stylesheet">
     <link href="css/pic.css" rel="stylesheet">
-    
+     <link href="css/loader.css" rel="stylesheet">
     <link href="css/weather.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="CultureTravel.png"/> 
     
     
   </head>
 <!------------LOADING------------>
-<body class="preloading">
-    <div id="preload" class="loader text-center">
-        <div class="inner one"></div>
-        <div class="inner two"></div>
-        <div class="inner three"></div>
-    </div>
+<body>
+  <div id="preloader"></div>
+ 
 
 <!------------NAVBAR------------>
        
@@ -240,15 +237,6 @@
   <script src="assets/dist/js/cover.js" ></script>
   <scrscr src="./assets/dist/js/weather.js"></scrscr>
   <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script>
-        var loader = function() {
-            setTimeout(function() {
-                $('#loader').css({ 'opacity': 0, 'visibility':'hidden' });
-            }, 1000);
-        };
-        $(function(){
-            loader();
-        });
-    </script>
+  <script src="./assets/dist/js/loader.js"></script>
   </body>
 </html>
