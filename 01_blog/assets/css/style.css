@@ -932,3 +932,7 @@
 .contact__form span:last-child {
     opacity: .4;
 }
+
+#btn-submit{
+    width: 90%;
+}
