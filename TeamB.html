@@ -76,7 +76,7 @@
 		<div class="section-row">
 			<div class="section-col">
 				<div class="section">
-					<div class="section-in">
+					<div class="section-in" data-bs-toggle="modal" data-bs-target="#modal1">
 						<img src="./avatar/Thuy.jpg" alt="">
 					</div>
 				</div>
@@ -86,7 +86,7 @@
 			</div>
 			<div class="section-col">
 				<div class="section">
-					<div class="section-in">
+					<div class="section-in" data-bs-toggle="modal" data-bs-target="#modal2">
 						<img src="./avatar/Tuan.JPG" alt="">
 					</div>
 				</div>
@@ -96,7 +96,7 @@
 			</div>
 			<div class="section-col">
 				<div class="section">
-					<div class="section-in">
+					<div class="section-in" data-bs-toggle="modal" data-bs-target="#modal3">
 						<img src="./avatar/Phong.JPG" alt="">
 					</div>
 				</div>
@@ -106,7 +106,7 @@
 			</div>
 			<div class="section-col">
 				<div class="section">
-					<div class="section-in">
+					<div class="section-in" data-bs-toggle="modal" data-bs-target="#modal4">
 						<img src="./avatar/Truc.JPEG" alt="">
 					</div>
 				</div>
@@ -116,7 +116,7 @@
 			</div>
 			<div class="section-col">
 				<div class="section">
-					<div class="section-in">
+					<div class="section-in" data-bs-toggle="modal" data-bs-target="#modal5">
 						<img src="./avatar/Khanh.JPG" alt="">
 					</div>
 				</div>
@@ -126,7 +126,7 @@
 			</div>
 			<div class="section-col">
 				<div class="section">
-					<div class="section-in">
+					<div class="section-in" data-bs-toggle="modal" data-bs-target="#modal6">
 						<img src="https://assets.codepen.io/1462889/sl6.jpg" alt="">
 					</div>
 				</div>
@@ -139,69 +139,95 @@
 
   <!--------------information------------>
  
-      <div class="section full-height">
-          <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn"/>
-          <label for="modal-btn">Nguyễn Diệu Thúy<i class="uil uil-expand-arrows"></i></label> 		
-          <div class="modal">		
-            <div class="modal-wrap">	
-          <img src="./avatar/Thuy.jpg" alt="">	
-              <p class="infor">Leader <br>Birthday: 26/09/1993 <br> Nickname: Mi chan <br> Email: dieuthuynguyen1189@gmail.com <br> Favorite quotes: "Nếu trên đời thực sự có kỳ tích, thì đó nhất định là một tên gọi khác của nỗ lực!"</p>	          		
-            </div>			          		
-          </div>	
+  <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title m-0">Nguyễn Diệu Thúy</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="">
+          <img src="./avatar/Thuy.jpg" alt="" class="w-100">	
+          <p class="infor p-4">Leader <br>Birthday: 26/09/1993 <br> Nickname: Mi chan <br> Email: dieuthuynguyen1189@gmail.com <br> Favorite quotes: "Nếu trên đời thực sự có kỳ tích, thì đó nhất định là một tên gọi khác của nỗ lực!"</p>	          		
+        </div>
       </div>
-      <div class="section2 full-heigh2">
-          <input class="modal-btn2" type="checkbox2" id="modal-btn2" name="modal-btn2"/>
-          <label for="modal-btn2">Nguyễn Văn Tuấn<i class="uil2 uil-expand-arrows2"></i></label> 		
-          <div class="modal2">		
-            <div class="modal-wrap2">	
-          <img src="./avatar/Tuan.JPG" alt="">	
-              <p class="infor2">Project Manager <br> Birthday: 19/11/2000 <br>Email: tuan547266@gmail.com <br> </p>	          		
-            </div>			          		
-          </div>	
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title m-0">Nguyễn Văn Tuấn</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="">
+          <img src="./avatar/Tuan.JPG" alt="" class="w-100">	
+          <p class="infor p-4">Project Manager <br> Birthday: 19/11/2000 <br>Email: tuan547266@gmail.com <br> </p>
+        </div>
       </div>
-      
-      <div class="section3 full-height3">
-           <input class="modal-btn3" type="checkbox3" id="modal-btn3" name="modal-btn3"/>
-          <label for="modal-btn3">Ngô Xuân Phong <i class="uil uil-expand-arrows3"></i></label> 		
-          <div class="modal3">		
-            <div class="modal-wrap3">	
-          <img src="./avatar/Phong.JPG3" alt="">	
-              <p class="infor3">Main Developer <br>Birthday: 13/11/1996 <br> Email: ngophong1996@gmail.com  </p>	          		
-            </div>			          		
-          </div>	
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title m-0">Ngô Xuân Phong</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="">
+          <img src="./avatar/Phong.JPG" alt="" class="w-100">	
+          <p class="infor p-4">Main Developer <br>Birthday: 13/11/1996 <br> Email: ngophong1996@gmail.com  </p>
+        </div>
       </div>
-      <div class="section full-height4">
-           <input class="modal-btn4" type="checkbox4" id="modal-btn4" name="modal-btn4"/>
-          <label for="modal-btn4">Đỗ Thanh Thu Trúc <i class="uil4 uil-expand-arrows4"></i></label> 		
-          <div class="modal4">		
-            <div class="modal-wrap4">	
-          <img src="./avatar/Truc.JPEG" alt="">	
-              <p class="infor4">Developer <br> Birthday: 22/11/2001 <br> Nickname: Panda <br> Email: pandagau2211@gmail.com <br> Favorite quotes: “Hãy hạnh phúc vì bạn có cuộc sống tuyệt vời này, hãy sống như vậy để mọi người nhớ đến bạn khi bạn không có mặt ở đó.” </p>	          		
-            </div>			          		
-          </div>	
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal4" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title m-0">Đỗ Thanh Thu Trúc</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="">
+          <img src="./avatar/Truc.JPEG" alt="" class="w-100">	
+          <p class="infor p-4">Developer <br> Birthday: 22/11/2001 <br> Nickname: Panda <br> Email: pandagau2211@gmail.com <br> Favorite quotes: “Hãy hạnh phúc vì bạn có cuộc sống tuyệt vời này, hãy sống như vậy để mọi người nhớ đến bạn khi bạn không có mặt ở đó.” </p>
+        </div>
       </div>
-      <div class="section5 full-height5">
-           <input class="modal-btn5" type="checkbox5" id="modal-btn5" name="modal-btn5,"/>
-          <label for="modal-btn5">Lê Duy Khánh <i class="uil5 uil-expand-arrows5"></i></label> 		
-          <div class="modal5">		
-            <div class="modal-wrap5">	
-          <img src="./avatar/Khanh.JPG" alt="">	
-              <p class="infor5">Developer <br> Birthday: 26/05/2000 <br> Email: chulsoon2605@gmail.com</p>	          		
-            </div>			          		
-          </div>	
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal5" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title m-0">Lê Duy Khánh</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="">
+          <img src="./avatar/Khanh.JPG" alt="" class="w-100">	
+          <p class="infor p-4">Developer <br> Birthday: 26/05/2000 <br> Email: chulsoon2605@gmail.com</p>
+        </div>
       </div>
-      <div class="section6 full-height6">
-           <input class="modal-btn6" type="checkbox6" id="modal-btn6" name="modal-btn6"/>
-          <label for="modal-btn6">Mentor <i class="uil6 uil-expand-arrows6"></i></label> 		
-          <div class="modal6">		
-            <div class="modal-wrap6">	
-          <img src="https://assets.codepen.io/1462889/sl3.jpg" alt="">	
-              <p class="infor6">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>	          		
-            </div>			          		
-          </div>	
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal6" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title m-0">Mentor</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="">
+          <img src="https://assets.codepen.io/1462889/sl6.jpg" alt="" class="w-100">	
+          <p class="infor p-4">Đẹp trai xinh gái nhất vũ trụ</p>
+        </div>
       </div>
-    
- 
+    </div>
+  </div> 
 
   <!-------fotter------->
 <footer>
@@ -264,6 +290,7 @@
     
 
 <script src="./assets/dist/js/loader.js"></script>
+<script src="./bootstrap-5.2.1/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
